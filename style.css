@@ -1,0 +1,112 @@
+body{
+    background: url(imagens/capa.png),
+                url(imagens/ruido.png),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+}
+
+.barra-transparente{
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+a.nav-link{
+    color: white;
+}
+
+a.nav-link:hover{
+    color: #9bf0e1;
+}
+
+
+button.navbar-toggler{
+    color: white;
+}
+
+.divisor{
+    width: 1px;
+    background-color: #fff;
+    height: 18px;
+    margin: auto 20px;
+}
+
+html, body, #home{
+    height: 100%;
+    overflow-x: hidden;
+}
+ 
+.capa h1{
+    color: white;
+    letter-spacing: -0.05em;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+h2{
+    letter-spacing: -0.04em;
+}
+
+h3{
+    letter-spacing: -0.04em;
+}
+
+h6{
+    color: #919496;
+}
+
+#servicos h2, h3{
+    color: #7c26f8;
+}
+
+#recursos h3{
+    color: #9bf0e1;
+}
+
+.btn-customizado{
+    color: white;
+    border-radius: 500px;
+    text-transform: uppercase;
+    margin: 0 10px;
+    margin-bottom: 10px;
+}
+
+.btn-roxo{
+    background-color: #7c26f8;
+    padding: 12px 25px;
+}
+.btn-roxo:hover{
+    background-color: #6207e3;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.btn-branco{
+    border: 2px solid white;
+    padding: 10px 20px;
+}
+.btn-branco:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #7c26f8;
+}
+
+.rotacionar{
+    transform: rotate(30deg);
+    margin-left: 80px;
+}
+
+footer{
+    position: relative;
+    background-color: #000;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+footer .navbar-nav a{
+    color: #fff;
+}
+
+footer .navbar-nav a:hover{
+    color: #9bf0e1;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    width: 20%;
+}
